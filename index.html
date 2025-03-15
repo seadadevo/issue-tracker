@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enhanced Issue Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Enhanced Issue Tracker</h1>
+
+      
+      <form id="issue-form">
+        <input
+          type="text"
+          id="issue-title"
+          placeholder="Issue Title"
+          required
+        />
+        <textarea
+          id="issue-description"
+          placeholder="Issue Description"
+          required
+        ></textarea>
+        <textarea
+          id="issue-solution"
+          placeholder="Suggested Solution"
+          required
+        ></textarea>
+        <button type="submit">Add Issue</button>
+      </form>
+
+   
+      <button id="clear-all" class="clear-btn">Clear All Issues</button>
+
+      <h2>Issues List</h2>
+      <ul id="issue-list">
+      
+      </ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
